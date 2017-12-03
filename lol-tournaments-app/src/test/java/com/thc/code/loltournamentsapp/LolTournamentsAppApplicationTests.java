@@ -1,4 +1,4 @@
-package com.thc.code.restwebservice;
+package com.thc.code.loltournamentsapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RestWebServiceApplicationTests {
+public class LolTournamentsAppApplicationTests {
 
 	@Test
 	public void contextLoads() {
