@@ -5,8 +5,8 @@ public class User extends Person {
     private int userNumber;
 
     public User() { super(); }
-    public User(int userNumber) {
-        super();
+    public User(int userNumber, String name, String middleName, String lastName, String phoneNumber, String address, String nick) {
+        super(name, middleName,lastName,phoneNumber, address, nick);
         this.userNumber = userNumber;
     }
 

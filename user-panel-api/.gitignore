@@ -22,4 +22,5 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-user-panel-api.iml
+user-panel-api.iml node_modules
+bower_components

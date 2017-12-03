@@ -20,4 +20,12 @@ public class UserService {
     public List<User> getAllUsers() {
         return userRepository.getAllUsers();
     }
+
+    public String createUser(User user) {
+        if (userRepository.createUser(user)) {
+            return "Usuario creado correctamente!";
+        } else {
+            return "Error al crear usuario!";
+        }
+    }
 }

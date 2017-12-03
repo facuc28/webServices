@@ -6,10 +6,11 @@ public class Client extends Person {
 
     public Client() {super();}
 
-    public Client(int clientNumber) {
-        super();
+    public Client(int clientNumber, String name, String middleName, String lastName, String phoneNumber, String address, String nick) {
+        super(name, middleName,lastName,phoneNumber, address, nick);
         this.clientNumber = clientNumber;
     }
+
     public int getClientNumber() {
         return clientNumber;
     }
